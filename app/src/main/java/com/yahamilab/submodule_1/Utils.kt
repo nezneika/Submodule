@@ -5,4 +5,8 @@ object Utils {
     fun getCurrentTime(): Long {
         return System.currentTimeMillis() / 1000L
     }
+
+    fun getCurrentTimeMillis(): Long {
+        return System.currentTimeMillis()
+    }
 }
